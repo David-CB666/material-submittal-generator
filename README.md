@@ -2,6 +2,10 @@
 
 > One-click batch generation of material submittal sheets + automatic BQ page merging — for MEP construction projects.
 
+<p align="center">
+  <img src="demo/hero.png" alt="Material Submittal Generator Pipeline" width="100%">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 
