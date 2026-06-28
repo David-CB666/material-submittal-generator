@@ -1,6 +1,8 @@
 # Material Submittal Generator
 
-> One-click batch generation of material submittal sheets + automatic BQ page merging — for MEP construction projects.
+> **One-click batch generation of material submittal sheets + automatic BQ page merging — for MEP construction projects.**
+
+Automate the most tedious part of MEP construction docs: every material delivered to site needs a formatted submittal sheet. This tool batch-generates 50+ sheets from one template, preserving all images and styles via raw ZIP manipulation. Then merge each sheet with its corresponding BQ tender pages. Built from real Macau construction workflows.
 
 <p align="center">
   <img src="demo/hero.png" alt="Material Submittal Generator Pipeline" width="100%">
@@ -103,6 +105,18 @@ Output: `MAT-001 Cable Tray.pdf` (page 1 = submittal form, page 2+ = correspondi
 
 ---
 
+## 📊 Real-World Impact
+
+> *"每個工程百幾二百份材料要報批。以前一份份人手填：Copy template → Paste data → 加相 → 較打印設定 → 出 PDF → 搵對應 BQ 頁。一份起碼 3~5 分鐘。而家 gen.py 一條 command，5 分鐘出晒全部。"* — Mike, MEP Project Manager
+
+---
+
+## 🇭🇰 中文簡介
+
+材料報批表一鍵批量生成 + BQ 標書頁自動合併。純 ZIP 引擎保留圖片及打印設定，支援模板診斷、批次生成、COM 匯出 PDF、自動匹配 BQ 頁。建基於澳門 MEP 工程實戰。
+
+---
+
 ## Why a ZIP Engine Instead of openpyxl?
 
 openpyxl's `copy_worksheet()` and `save()` operations:
@@ -153,6 +167,16 @@ This tool was built from real MEP construction workflows. A typical use case:
 - **After**: 5 minutes to write config → run gen.py → done
 
 See `docs/WORKFLOW.md` for detailed step-by-step guide and troubleshooting.
+
+---
+
+## 🔗 My Other Tools
+
+| Tool | Description |
+|------|-------------|
+| [**Excel Template Filler**](https://github.com/David-CB666/excel-template-filler) | Dual-engine batch template filling — images & print settings preserved |
+| [**GanttChart Pro**](https://github.com/David-CB666/gantt-chart-pro) | Professional Gantt charts in Excel — no MS Project |
+| [**VBA Macro Reader**](https://github.com/David-CB666/VBA-Macro-Reader-v2.0.0) | Read, modify & execute VBA macros from .xlsm files |
 
 ---
 
