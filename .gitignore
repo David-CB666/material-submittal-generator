@@ -17,4 +17,6 @@ Thumbs.db
 
 # Build
 dist/
+build-temp/
+release/
 *.egg-info/

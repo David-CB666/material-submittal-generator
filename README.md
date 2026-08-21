@@ -107,13 +107,13 @@ Output: `MAT-001 Cable Tray.pdf` (page 1 = submittal form, page 2+ = correspondi
 
 ## 📊 Real-World Impact
 
-> *"每個工程百幾二百份材料要報批。以前一份份人手填：Copy template → Paste data → 加相 → 較打印設定 → 出 PDF → 搵對應 BQ 頁。一份起碼 3~5 分鐘。而家 gen.py 一條 command，5 分鐘出晒全部。"* — Mike, MEP Project Manager
+> *"每個工程百幾二百份材料要報批。以前一份份人手填：Copy template → Paste data → 加相 → 較打印設定 → 出 PDF → 搵對應 BQ 頁。一份起碼 3~5 分鐘。而家 gen.py 一條 command，5 分鐘出晒全部。"* — David-CB666, MEP Project Manager
 
 ---
 
 ## 🇭🇰 中文簡介
 
-材料報批表一鍵批量生成 + BQ 標書頁自動合併。純 ZIP 引擎保留圖片及打印設定，支援模板診斷、批次生成、COM 匯出 PDF、自動匹配 BQ 頁。建基於澳門 MEP 工程實戰。
+材料報批表一鍵批量生成 + BQ 標書頁自動合併。純 ZIP 引擎保留圖片及打印設定，支援模板診斷、批次生成、COM 匯出 PDF、自動匹配 BQ 頁。建基於 Macau MEP 工程實戰。
 
 ---
 
@@ -188,4 +188,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-Mike — MEP Project Manager, Macau SAR, China.
+David-CB666 — MEP Project Manager, Macau SAR, China.
