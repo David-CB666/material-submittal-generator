@@ -21,9 +21,9 @@ Automate the most tedious part of MEP construction docs: every material delivere
 
 ## 📸 Demo
 
-![Material Submittal Demo](demo/hero.png)
+![Material Submittal Workflow](demo/submittal_workflow_demo.jpg)
 
-*Batch-generated submittal sheets with images and print settings preserved*
+*4-step pipeline: Inspect template → Generate 150+ sheets (images preserved) → Export PDFs → Merge BQ pages*
 
 ## 🎯 What Problem Does This Solve?
 
