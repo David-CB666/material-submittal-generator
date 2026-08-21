@@ -1,10 +1,10 @@
-<div align="center">
+﻿<div align="center">
 
 # Material Submittal Generator
 
 ### One-click batch generation of material submittal sheets + automatic BQ page merging — for MEP construction projects.
 
-Automate the most tedious part of MEP construction docs: every material delivered to site needs a formatted submittal sheet. This tool batch-generates 50+ sheets from one template, preserving all images and styles via raw ZIP manipulation. Then merge each sheet with its corresponding BQ tender pages. Built from real Macau construction workflows.
+Automate the most tedious part of MEP construction docs: every material delivered to site needs a formatted submittal sheet. This tool batch-generates 50+ sheets from one template, preserving all images and styles via raw ZIP manipulation. Then merge each sheet with its corresponding BQ tender pages. Built from real construction workflows.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://python.org)
@@ -161,7 +161,7 @@ pip install openpyxl PyMuPDF
 
 ## 🇨🇳 中文介绍
 
-材料报批表一键批量生成 + BQ 标书页自动合并。纯 ZIP 引擎保留图片及打印设置，支持模板诊断、批量生成、COM 导出 PDF、自动匹配 BQ 页。基于澳门 MEP 工程实战。
+材料报批表一键批量生成 + BQ 标书页自动合并。纯 ZIP 引擎保留图片及打印设置，支持模板诊断、批量生成、COM 导出 PDF、自动匹配 BQ 页。基于真实 MEP 工程实战。
 
 **核心问题：** 每个工程上百份材料需要报批，工程师手动 Copy-Paste 每份表格需 3~5 分钟。本工具一键生成全部，5 分钟完成 150+ 份。
 
@@ -188,7 +188,7 @@ MIT — see [LICENSE](LICENSE).
 
 ## 👤 Author
 
-**Mike** — MEP Project Manager, Macau SAR, China.
+**Mike** — MEP Project Manager.
 
 ---
 

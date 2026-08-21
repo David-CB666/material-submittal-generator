@@ -1,4 +1,4 @@
-# Contributing to Material Submittal Generator
+﻿# Contributing to Material Submittal Generator
 
 Built from real MEP construction workflows. If you deal with material submittals, your real-world edge cases are gold.
 
@@ -25,4 +25,4 @@ Built from real MEP construction workflows. If you deal with material submittals
 
 ## Questions?
 
-Start a [Discussion](../../discussions). This tool was born in Macau construction sites — your questions help make it better for everyone.
+Start a [Discussion](../../discussions). This tool was born on real construction sites — your questions help make it better for everyone.
