@@ -7,7 +7,7 @@
 Automate the most tedious part of MEP construction docs: every material delivered to site needs a formatted submittal sheet. This tool batch-generates 50+ sheets from one template, preserving all images and styles via raw ZIP manipulation. Then merge each sheet with its corresponding BQ tender pages. Built from real construction workflows.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://python.org)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://python.org)
 [![PyMuPDF](https://img.shields.io/badge/PyMuPDF-1.23+-00A000?logo=python&logoColor=white)](https://pymupdf.readthedocs.io)
 [![Stars](https://img.shields.io/github/stars/David-CB666/material-submittal-generator?style=social)](https://github.com/David-CB666/material-submittal-generator/stargazers)
 [![Forks](https://img.shields.io/github/forks/David-CB666/material-submittal-generator?style=social)](https://github.com/David-CB666/material-submittal-generator/network/members)
@@ -18,6 +18,12 @@ Automate the most tedious part of MEP construction docs: every material delivere
 </div>
 
 ---
+
+## 📸 Demo
+
+![Material Submittal Demo](demo/hero.png)
+
+*Batch-generated submittal sheets with images and print settings preserved*
 
 ## 🎯 What Problem Does This Solve?
 
@@ -40,6 +46,12 @@ Template .xlsx + Source Data → Multi-Sheet Excel → Per-Sheet PDFs → Merge 
 | 🔍 **Template inspector** | Diagnose any .xlsx template: find placeholders, cell positions, style indexes |
 
 ## 🚀 Quick Start
+
+```bash
+git clone https://github.com/David-CB666/material-submittal-generator.git
+cd material-submittal-generator
+pip install -r requirements.txt
+```
 
 ### 1. Inspect your template
 
@@ -104,6 +116,7 @@ Output: `MAT-001 Cable Tray.pdf` (page 1 = submittal form, page 2+ = correspondi
 | `gen.py` | Batch-generate multi-sheet Excel from template + data | Standard library |
 | `export_pdf.py` | Export each sheet to a separate PDF | pywin32, Windows + Excel |
 | `merge_bq.py` | Merge submittal PDFs with corresponding BQ pages | openpyxl, PyMuPDF |
+| `material_tools.py` | **Unified CLI** — all-in-one: `gen`, `inspect`, `merge-bq`, `export-pdf` | All above |
 
 ## 📖 Documentation
 
