@@ -183,6 +183,39 @@ pip install openpyxl PyMuPDF
 - ZIP 引擎直接操作 XML，100% 保留图片和打印设置
 - 自动匹配 BQ 页面并合并到对应 PDF
 
+## 📖 Complete Guide
+
+This tool is the **`material-approval-workflow` skill pack** from the **AI Agent Cultivation Field Manual v2.0** — a 13-chapter + 8-appendix handbook that teaches you how to train a generic AI into your domain engineering expert.
+
+**The manual's Excel chapter (Ch.7) documents the complete methodology behind this tool:**
+
+- **5 Iron Rules** for Excel automation (why pure ZIP, why not openpyxl save, why backup first)
+- **4 Painful Lessons** — real failures that led to each rule
+- **Complete case study**: 28 submittal sheets, 14 hrs → 30 min (**28x faster**)
+- **Material Submittal 5-Step Pipeline**: master list → sub-items → PDF with BQ → model column → brand fill
+
+**Full manual covers 4 software domains:**
+
+| Software | Chapter | Efficiency Gain |
+|----------|---------|-----------------|
+| Word | Ch.6 | 2-3 days → 30 min (10x+) |
+| **Excel** ← this tool's chapter | Ch.7 | 14 hrs → 30 min (28x) |
+| PDF | Ch.8 | 200 pages → 40 min (25x) |
+| CAD | Ch.9 | Auto-generate arrangement drawings (10x+) |
+
+**You get with the full version:**
+- 13 chapters + 8 appendices (HTML + PDF + EPUB)
+- 7 installable skill packs (this one + 6 more)
+- Complete Python case studies with real code
+- Battle-tested rules + pitfalls from 128 days of AI cultivation
+- CAD chapter: DWG/DXF processing, SLD → arrangement drawing automation
+
+👉 **[Get the full manual + all 7 skill packs →](https://david-cb666.github.io/ai-agent-manual)**
+
+> Free preview: Chapter 1 (5-min AI level self-assessment) available on the landing page.
+
+---
+
 ## 🔗 My Other Tools
 
 | Tool | Description |
